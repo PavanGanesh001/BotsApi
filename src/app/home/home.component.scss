@@ -1,0 +1,59 @@
+.home-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+  z-index: -1;
+}
+.logo {
+  width: 5rem;
+  height: 4rem;
+  margin-left: -16px;
+}
+.side-link {
+  float: left;
+  margin-left: 41%;
+  //   position: absolute;
+  //   margin-top: 10px;
+  //   margin-left: 75%;
+}
+
+button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: white;
+  text-decoration: none;
+  &.call-shedule {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: white;
+    background-color: black;
+  }
+}
+mat-toolbar {
+  background-color: white;
+}
+
+.mainText {
+  font-size: 4rem;
+  line-height: 4.75rem;
+  font-weight: 500;
+  margin-top: 4.5rem;
+}
+
+.secondaryText {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #595959;
+}
