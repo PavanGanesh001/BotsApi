@@ -5,7 +5,6 @@ body {
   position: relative;
   left: 0;
   bottom: 0;
-  width: 97%;
   background-color: rgb(216, 169, 169);
   color: rgb(15, 15, 15);
   text-align: left;
@@ -14,6 +13,7 @@ body {
   overflow: auto;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-top: -15px;
   padding-left: 2%;
 }
 .item {
@@ -21,6 +21,9 @@ body {
   width: 25%;
 
   height: 300px;
+}
+.row {
+  padding-left: 2rem;
 }
 .row:after {
   content: "";
@@ -43,7 +46,8 @@ body {
   border: none;
   font-size: 14px;
   color: #ffffff;
-  padding: 20px;
+  padding: 15px;
+  margin-left: 10px;
   width: 130px;
   text-align: center;
   -webkit-transition-duration: 0.4s;
@@ -166,4 +170,7 @@ textarea {
   img {
     border-radius: 5%;
   }
+}
+.blackboxcontainer {
+  margin-top: 1rem;
 }
