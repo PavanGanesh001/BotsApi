@@ -13,6 +13,7 @@ import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 import { DetailComponent } from './detail/detail.component';
+import { NgxMarqueeModule } from 'ngx-marquee';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, FooterComponent, DetailComponent],
@@ -24,6 +25,8 @@ import { DetailComponent } from './detail/detail.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatListModule,
+    NgxMarqueeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent],

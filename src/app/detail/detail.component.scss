@@ -3,14 +3,8 @@ body {
   padding: 0;
 }
 
-header {
-  text-align: center;
-  background-color: #f0f0f0;
-  padding: 20px;
-}
 
 .content {
-  text-align: center;
   font-size: 18px;
 }
 
@@ -40,6 +34,7 @@ header {
   transition: color 0.3s ease;
   color: lightgray;
   font-size: 50px;
+  padding: 1rem;
 }
 
 .scrolling-text:hover {
@@ -73,4 +68,40 @@ header {
   margin: 25px;
   box-sizing: border-box;
   padding-block: 10px;
+}
+
+.full-stack-heading{
+  font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.expertise{
+  padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.subheading h2{
+  font-size: 1.875rem;
+    line-height: 2.375rem;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+.subheading p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tech-stack{
+  text-align: center;
+    margin-top: 5rem;
+
+    & h1{
+      font-size: 3rem;
+    line-height: 3.75rem;
+    }
+    & p{
+      font-size: 1.25rem;
+    line-height: 1.875rem;
+    }
 }
