@@ -11,7 +11,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgxMarqueeModule } from 'ngx-marquee';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -25,7 +24,6 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatListModule,
-    NgxMarqueeModule
 
   ],
   providers: [],

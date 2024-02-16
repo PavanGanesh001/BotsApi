@@ -15,7 +15,7 @@ body {
 
 .content div {
   display: inline-block;
-  width: 30%;
+  width: 29%;
   margin: 20px;
   box-sizing: border-box;
 }
@@ -75,10 +75,6 @@ body {
     font-size: 2.5rem;
     line-height: 3rem;
 }
-.expertise{
-  padding-left: 9rem;
-    padding-right: 9rem;
-}
 
 .subheading h2{
   font-size: 1.875rem;
@@ -115,5 +111,20 @@ body {
   font-weight: 500;
     font-size: 3rem;
   line-height: 3.75rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* CSS rules for small screens */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* CSS rules for medium screens */
+}
+
+@media only screen and (min-width: 1025px) {
+  .expertise{
+    padding-left: 18.5rem;
+    padding-right: 18.5rem;
   }
 }
