@@ -115,8 +115,20 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  /* CSS rules for small screens */
+.expertise{
+margin: 2rem;
 }
+
+.content div {
+  width: 88%;
+}
+.tech-stack, .working-with-us{
+  margin: 2rem;
+  margin-top: 5rem 
+}
+
+}
+
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* CSS rules for medium screens */
