@@ -3,7 +3,6 @@ body {
   padding: 0;
 }
 
-
 .content {
   font-size: 18px;
 }
@@ -13,11 +12,34 @@ body {
   height: 60px;
 }
 
-.content div {
+#working {
+  & .subheading h1 {
+    width: 100%;
+  }
+  & .workingcontent {
+    & > div {
+      width: 45%;
+    }
+    & img {
+      vertical-align: top;
+      width: 1.5rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.content div,
+.workingcontent div {
   display: inline-block;
   width: 29%;
   margin: 20px;
   box-sizing: border-box;
+}
+
+.workingcontent div {
+  margin-top: 0.25rem;
+  width: 82%;
+  margin-top: 0;
 }
 
 .scrolling-text-container {
@@ -70,17 +92,19 @@ body {
   padding-block: 10px;
 }
 
-.full-stack-heading{
+.full-stack-heading {
   font-weight: 500;
-    font-size: 2.5rem;
-    line-height: 3rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
-.subheading h2{
+.subheading h2,
+.subheading h1 {
   font-size: 1.875rem;
-    line-height: 2.375rem;
-    width: 50%;
-    margin-top: 0.5rem;
+  line-height: 2.375rem;
+  font-weight: 500;
+  width: 50%;
+  margin-top: 0.5rem;
 }
 
 .subheading p {
@@ -88,54 +112,77 @@ body {
   line-height: 1.75rem;
 }
 
-.tech-stack{
+.tech-stack {
   text-align: center;
-    margin-top: 5rem;
+  margin-top: 5rem;
 
-    & h1{
-      font-size: 3rem;
+  & h1 {
+    font-size: 3rem;
     font-weight: 500;
     line-height: 3.75rem;
-    }
-    & p{
-      font-size: 1.25rem;
+  }
+  & p {
+    font-size: 1.25rem;
     line-height: 1.875rem;
-    }
+  }
 }
 
-.working-with-us{
+.working-with-us {
   margin-top: 5rem;
   text-align: center;
 
-  & h1{
-  font-weight: 500;
+  & h1 {
+    font-weight: 500;
     font-size: 3rem;
-  line-height: 3.75rem;
+    line-height: 3.75rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-.expertise{
-margin: 2rem;
-}
+  .expertise {
+    margin: 2rem;
+  }
 
-.content div {
-  width: 88%;
-}
-.tech-stack, .working-with-us{
-  margin: 2rem;
-  margin-top: 5rem 
-}
+  .content div {
+    width: 88%;
+  }
+  .tech-stack,
+  .working-with-us {
+    margin: 2rem;
+    margin-top: 5rem;
+  }
 
-}
+  .working-with-us h1 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
 
+  #working {
+    & .workingcontent {
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+  .expertiseHeading{
+    margin-top: 8rem;
+  }
+}
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* CSS rules for medium screens */
 }
 
 @media only screen and (min-width: 1025px) {
-  .expertise{
+  .expertise {
+    padding-left: 18.5rem;
+    padding-right: 18.5rem;
+  }
+  .expertiseHeading{
+    margin-top: 56vh
+  }
+
+  #working {
     padding-left: 18.5rem;
     padding-right: 18.5rem;
   }
