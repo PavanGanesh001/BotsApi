@@ -16,9 +16,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
 import { AngularFooterComponent } from './angular-footer/angular-footer.component';
+import { ServicesComponent } from './services/services.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, DetailComponent, AngularFooterComponent],
+  declarations: [AppComponent, HomeComponent, FooterComponent, DetailComponent, AngularFooterComponent, ServicesComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
