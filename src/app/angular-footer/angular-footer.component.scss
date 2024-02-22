@@ -6,8 +6,8 @@ mat-card-footer {
 
 .grid-flex-container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .grid-content-item {
@@ -91,6 +91,12 @@ a {
   .contact-us {
     max-width: 100%;
   }
+
+  .largeText {
+    font-size: 14px;
+  }
+
+  .grid-flex-container{justify-content: flex-start;}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
