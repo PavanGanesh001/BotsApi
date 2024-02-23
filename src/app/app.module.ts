@@ -18,9 +18,10 @@ import { FooterComponent } from './footer/footer.component';
 import { AngularFooterComponent } from './angular-footer/angular-footer.component';
 import { ServicesComponent } from './services/services.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, DetailComponent, AngularFooterComponent, ServicesComponent, NavbarComponent],
+  declarations: [AppComponent, HomeComponent, FooterComponent, DetailComponent, AngularFooterComponent, ServicesComponent, NavbarComponent, AboutUsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
