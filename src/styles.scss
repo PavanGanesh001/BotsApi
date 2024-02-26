@@ -5,3 +5,16 @@ html, body { height: 100%; }
 body { margin: 0;   font-family: Outfit,sans-serif !important;
 }
 
+.subheading h2,
+.subheading h1 {
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+  font-weight: 500;
+  width: 50%;
+  margin-top: 0.5rem;
+}
+
+.subheading p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
